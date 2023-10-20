@@ -41,6 +41,7 @@ function renderLicenseSection(license) {
   const licenseLink = renderLicenseLink(license);
   if (licenseBadge && licenseLink) {
     return `## License
+
 This project is licensed under the [${license}](${licenseLink}) license. ${licenseBadge}`;
   } else if (license === 'None') {
     return '';
