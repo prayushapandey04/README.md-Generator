@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
     return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
   } else if (license === 'IBM') {
     return '[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)';
-  } else {
+  } else if (license === 'None') {
     return '';
   }
 }
@@ -29,14 +29,23 @@ function renderLicenseLink(license) {
     return 'https://opensource.org/license/mit/';
   } else if (license === 'IBM') {
     return 'https://www.ibm.com/about/software-licensing/us-en';
-  } else {
+  } else if (license === 'None') {
     return '';
   }
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  const licenseBadge = renderLicenseBadge(license);
+  const licenseLink = renderLicenseLink(license);
+  if (licenseBadge && licenseLink) {
+    return `## License
+    This project is licensed under the [${license}](${link}) license. ${badge}`;
+  } else if (license === 'None') {
+    return '';
+  }
+}
 // call badge
 //call link
 // TODO: Create a function to generate markdown for README
