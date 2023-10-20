@@ -1,8 +1,8 @@
-# Sample Generated ReadME.md
+# Sample ReadMe
 
 ## Description
 
-This is a generated sample ReadMe.md file generated using this project.
+Sample ReadMe description
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -17,7 +17,7 @@ This is a generated sample ReadMe.md file generated using this project.
 
 ## Usage
 
-Usage here.
+Sample usage.
 
 ## Installation
 
@@ -29,7 +29,7 @@ N/A
 
 ## Tests
 
-Please check the actual readme to see how you can also create a readme with this application.  
+N/A
 
 ## License
 
