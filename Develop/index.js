@@ -30,12 +30,6 @@ const questions = [
         message: 'List any installations necessary for your project',
     },
     {
-        type: 'list',
-        name: 'license',
-        message: 'Which license was used for your project?',
-        choices: ['Creative Commons', 'Boost', 'Apache 2.0', 'MIT', 'IBM', 'None'],
-    },
-    {
         type: 'input',
         name: 'contributions',
         message: 'Any contributions/contributors you would like to name in your project?',
@@ -44,6 +38,12 @@ const questions = [
         type: 'input',
         name: 'tests',
         message: 'Please type out instructions on any tests of how to use your project',
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Which license was used for your project?',
+        choices: ['Creative Commons', 'Boost', 'Apache 2.0', 'MIT', 'IBM', 'None'],
     },
     {
         type: 'input',
