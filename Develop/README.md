@@ -1,8 +1,8 @@
-# Test Project
+# Sample Project
 
 ## Description
 
-Description here.
+Description here
 
 ## Table of Contents
 
@@ -15,19 +15,19 @@ Description here.
 
 ## Usage
 
-Usage here.
+Usage here
 
 ## Installation
 
-Installations here.
+Installations here
 
 ## Contributions
 
- Contributions here.
+Contributors here
 
 ## Tests
 
-  Instructions here.
+Instructions here
 
 ## License
     This project is licensed under the [MIT](https://opensource.org/license/mit/) license. [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -36,6 +36,6 @@ Installations here.
 
 If you have any questions about this project or need further assitance, feel free to contact me:
 
--Github: [username here.](https://github.com/username here.)
--Email: email here.
+-Github: [username](https://github.com/username)
+-Email: email
 
