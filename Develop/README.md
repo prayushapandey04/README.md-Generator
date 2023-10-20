@@ -1,8 +1,8 @@
-# Sample Project
+# Example Generated Readme
 
 ## Description
 
-Description here
+This is an example README.md file which was generated using this application.
 
 ## Table of Contents
 
@@ -15,22 +15,22 @@ Description here
 
 ## Usage
 
-Usage here
+Please refer to the actual project to see the usage of this.
 
 ## Installation
 
-Installations here
+N/A
 
 ## Contributions
 
-Contributors here
+ N/A
 
 ## Tests
 
-Instructions here
+  Please refer to the actual project readme
 
 ## License
-    This project is licensed under the [MIT](https://opensource.org/license/mit/) license. [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This project is licensed under the [MIT](https://opensource.org/license/mit/) license. [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Questions
 
