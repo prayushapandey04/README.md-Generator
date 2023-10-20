@@ -55,8 +55,6 @@ function generateMarkdown(data) {
 
 ${data.description}
 
-${renderLicenseBadge(data.license)}
-
 ## Table of Contents
 
 -[Usage](#usage)
@@ -68,12 +66,28 @@ ${renderLicenseBadge(data.license)}
 
 ## Usage
 
+${data.usage}
 
+## Installation
 
+${data.installation}
 
+## Contributions
 
+${data.contributions}
 
-## License used: ${renderLicenseBadge(data.license)}
+## Tests
+
+${data.tests}
+
+${renderLicenseSection(data.license)}
+
+## Questions
+
+If you have any questions about this project or need further assitance, feel free to contact me:
+
+-Github: [${data.github}](https://github.com/${data.github})
+-Email: ${data.email}
 
 `;
 }
